@@ -182,6 +182,11 @@ const domain = [
   "nasa.dmtc.edu.pl",
   "41054733.mail-temp.com",
   "derbydales.co.uk",
+  "aiot.vuforia.us",
+"edu.creo.site",
+"50sale.edu.vn",
+"aiot.aiphone.eu.org",
+"edu.dmtc.press",
 ];
 (async () => {
   for (let index = 0; index < LooP; index++) {
