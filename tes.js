@@ -181,7 +181,6 @@ const domain = [
   "nasa.dmtc.edu.pl",
   "41054733.mail-temp.com",
   "derbydales.co.uk",
-  "todayemail.ga",
 ];
 (async () => {
   for (let index = 0; index < LooP; index++) {
