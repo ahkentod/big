@@ -10,14 +10,13 @@ const rp = require("request-promise");
 
 console.log("#####################");
 console.log("BISMILLAH");
+console.log("BANYAKIN DOA DULU");
 console.log("#####################");
-
-console.log("");
 console.log("");
 
 const Reff = readline.question("Masukan Kode Referal : ");
 const LooP = readline.question("Mau Berapa Banyak ? ");
-const DelaY = readline.question("80000");
+const DelaY = readline.question("100000");
 
 console.log("");
 console.log("");
@@ -164,7 +163,7 @@ const functionGetLocation = domain =>
 
 const genEmail = length =>
   new Promise((resolve, reject) => {
-    var text = "fikriganteng";
+    var text = "ahkentod";
     var possible =
       "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_.";
 
@@ -175,16 +174,8 @@ const genEmail = length =>
   });
 
 const domain = [
-  "creo.iotu.nctu.me",
   "pengangguran.me",
-  "nasa.dmtc.edu.pl",
-  "41054733.mail-temp.com",
-  "derbydales.co.uk",
-  "aiot.vuforia.us",
-"edu.creo.site",
-"50sale.edu.vn",
-"aiot.aiphone.eu.org",
-"edu.dmtc.press",
+  "aminudin.me",
 ];
 (async () => {
   for (let index = 0; index < LooP; index++) {
