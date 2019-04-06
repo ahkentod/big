@@ -17,9 +17,7 @@ console.log("");
 
 const Reff = readline.question("Masukan Kode Referal : ");
 const LooP = readline.question("Mau Berapa Banyak ? ");
-const DelaY = readline.question(
-  "Mau Berapa Lama (millisecond), Isi 70000 aja : "
-);
+const DelaY = readline.question("80000");
 
 console.log("");
 console.log("");
