@@ -16,7 +16,7 @@ console.log("");
 
 const Reff = readline.question("Masukan Kode Referal : ");
 const LooP = readline.question("Mau Berapa Banyak ? ");
-const DelaY = readline.question("100000");
+const DelaY = readline.question("Delay?");
 
 console.log("");
 console.log("");
@@ -176,11 +176,12 @@ const genEmail = length =>
 const domain = [
   "pengangguran.me",
   "aminudin.me",
+  "buatsgb.ml",
 ];
 (async () => {
   for (let index = 0; index < LooP; index++) {
     const item = await domain[(Math.random() * domain.length) | 0];
-    const emel = await genEmail(6);
+    const emel = await genEmail(7);
     await delay(10000);
     const register = await functionRegister(emel, item);
     const email = emel + "@" + item;
